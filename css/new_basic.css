@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900');
 
 /* =================== BASIC SETTINGS =================== */
 
 body {
 	color: black;
   font-family: 'Montserrat', sans-serif;
-	font-weight: normal;
-	font-style: normal;
 	position: relative;
 	margin: 0;
+	font-weight: 400
 }
 
 a {
@@ -298,16 +297,17 @@ nav h1 {
 }
 
 #projects h1 {
-	text-align: center;
 	text-transform: uppercase;
-	font-weight: 700;
 	font-size: 40px;
 	letter-spacing: 2px;
+	font-family: inherit;
+	font-weight: 700;
 }
 
 #projects h2 {
 	padding-left: 20px;
 	padding-right: 20px;
+	font-weight: 400;
 }
 
 .sub-boxes{
@@ -636,9 +636,14 @@ nav h1 {
 
 #footer-higher h2{
 	font-size: 26px;
-	padding-bottom: 70px;
+	padding-bottom: 30px;
 	text-align: center;
 	letter-spacing: 2px;
+}
+
+#footer-higher p{
+	padding-bottom: 15px;
+	text-align: center;
 }
 
 #footer-lower{
@@ -724,12 +729,26 @@ footer a:hover {
 	}
 
 	#footer-higher h2{
-		padding-bottom: 40px;
+		padding-bottom: 0px;
+	}
+
+	#footer-higher p{
+		padding-bottom: 0px;
 	}
 }
 
-@media (max-width: 400px) {
+@media (max-width: 362px) {
 	#footer-higher h2{
-		padding-bottom: 20px;
+		margin: 5px;
+	}
+
+	#footer-higher p{
+		margin: 5px;
+	}
+}
+
+@media (max-width: 335px) {
+	.contacts a{
+		margin: 0px 15px;
 	}
 }

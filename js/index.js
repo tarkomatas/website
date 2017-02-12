@@ -16,7 +16,7 @@
 	$(function() {
 	  if($(window).width() <= 990) {
 	    $("img").each(function() {
-	      $(this).attr("src", $(this).attr("src").replace("img/profile-pic.jpg", "img/profile-pic-round.png"));
+	      $(this).attr("src", $(this).attr("src").replace("img/profile-pic.jpg", "img/profile-pic-round.jpg"));
 	    });
 	  }
 	});
