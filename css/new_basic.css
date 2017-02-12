@@ -219,7 +219,7 @@ nav h1 {
 	}
 }
 
-@media (max-width: 355px) {
+@media (max-width: 500px) {
 	#navbar-element2 {
 		padding-right: 10px;
 	}
@@ -616,20 +616,16 @@ nav h1 {
 /* =================== FOOTER =================== */
 
 #fusion-footer{
-	position:relative	;
 	bottom:0;
 	width: 100%;
-	height: 300px;
 	background-color: #363839;
 	border-top: 10px solid #e9eaee;
 }
 
 #footer-higher{
-	position: relative;
-	height: 260px;
 	width: 50%;
 	float:left;
-	padding:0;
+	padding-bottom: 20px;
 	background-color: #363839;
 	text-align: left;
 }
@@ -643,11 +639,13 @@ nav h1 {
 
 #footer-higher p{
 	padding-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
 	text-align: center;
 }
 
 #footer-lower{
-	height: 40px;
+	padding: 15px 0px;
 	display: flex;
 	justify-content: center; /* align horizontal */
 	align-items: center; /* align vertical */
@@ -656,7 +654,6 @@ nav h1 {
 footer {
 	border-top: 1px solid #4b4c4d;
 	bottom:0;
-	position:absolute;
 	width: 100%;
 	background-color: #282a2b;
 	text-align:center;
@@ -666,10 +663,10 @@ footer {
 }
 
 #contacts-container{
-	position: relative;
 	width: 100%;
 	margin: auto;
 	text-align: center;
+	padding: 15px 0px;
 }
 
 .contacts {
@@ -698,8 +695,8 @@ footer a:hover {
 
 
 #gmaps{
-	position:relative;
 	width:25%;
+	height: 100%;
 	float:left;
 	text-align: center;
 	padding-top: 5px
@@ -712,38 +709,14 @@ footer a:hover {
 /* === for laptops and other mobile devices ==== */
 
 @media (max-width: 790px) {
-	#fusion-footer{
-		height: 520px;
-	}
-
 	#gmaps{
-		position: absolute;
 		width: 100%;
 		float: none;
 	}
 
 	#footer-higher{
-		position: absolute;
 		width: 100%;
 		float:none;
-	}
-
-	#footer-higher h2{
-		padding-bottom: 0px;
-	}
-
-	#footer-higher p{
-		padding-bottom: 0px;
-	}
-}
-
-@media (max-width: 362px) {
-	#footer-higher h2{
-		margin: 5px;
-	}
-
-	#footer-higher p{
-		margin: 5px;
 	}
 }
 
