@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    </head>
+    <body style = "background-color: #f6f6f6; margin: 20px; padding: 20px 0px; font-family: 'Raleway', sans-serif;">
+          <div class = "content" style = "text-align: left; width: 80%; margin: auto; background-color: white; border-radius: 8px;">
+            <div id = "header-section" style = "background-color: #5a90d9; padding: 20px; color: white; text-align: center;">
+                <h1 id = "header" style = "text-align: center; font-family: 'Montserrat', sans-serif; text-transform: uppercase;">You have a new message!</h1>
+                <hr style ="width: 50%; border: none; border-top: solid 15px; display: inline-block; color: white;">
+            </div>
+            <table id = "content-section" style = "padding: 20px;">
+                <tr>
+                    <td style = "font-weight: bold;">From: </td>
+                    <td style = "">{{ name }}</td>
+                </tr>
+                <tr>
+                    <td colspan="2" style = "padding: 35px 0px; text-align: justify;">{{ waypoints }}</td>
+                </tr>
+                <tr>
+                    <td style = "font-weight: bold;">E-mail address: </td>
+                    <td style = "">{{ email }}</td>
+                </tr>
+            </table>
+            <div style = "text-align: center; padding: 20px;">
+              <img src="http://myhappydata.com/img/logo3.png" alt="" id ="main-logo" style = "vertical-align: middle; width: 20px; padding-right: 5px;">
+              <a href ="http://myhappydata.com" style = "text-align: center; vertical-align: middle;">myhappydata.com</a>
+            </div>
+    </body>
+</html>

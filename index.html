@@ -61,7 +61,7 @@
 					<a href="http://blog.myhappydata.com"> blog </a>
 				</li>
 				<li>
-					<a href="#fusion-footer"> contact </a>
+					<a href="#contact"> contact </a>
 				</li>
 			</ul>
 			<div class="dropdown" id = "navbar-menu">
@@ -154,7 +154,7 @@
 				<img id = "profile-pic" src="img/profile-pic.jpg" alt="" />
 			</div>
 			<div id="block1">
-				<p>I graduated as a statistican specialized for survey methods. I have been working as a <strong> data scientist </strong> at Pazmany Peter Catholic University (<i class="fa fa-map-marker" aria-hidden="true"></i> Budapest, Hungary) since 2014. I am also a guest lecturer of this university. I teach methodological subjects to social science area students. </p>
+				<p>I graduated as a statistician specialized for survey methods. I have been working as a <strong> data scientist </strong> at Pazmany Peter Catholic University (<i class="fa fa-map-marker" aria-hidden="true"></i> Budapest, Hungary) since 2014. I am also a guest lecturer of this university. I teach methodological subjects to social science area students. </p>
 				<p>My passion is to create spectacular statistical reports mainly for non-statisticians. I made some <strong> static </strong> ( <i class="fa fa-file-pdf-o" aria-hidden="true"></i> or MS office output) <strong> reports </strong> in my early projects nowadays I rather focus <strong> web-based solutions </strong> like <strong> interactive dashboards, statistical applications. </strong></p>
 				<p>When I make web reports I prefer <strong> <a href ="http://shiny.rstudio.com/"> RStudio Shiny </a> </strong> which is a nice open-source solution which only requires the knowledge of R language. I am currently learning <strong> web development </strong> (I made this responsive website on my own without any template or framework just because to learn the basics of web development) which comes in handy when I need to implement some custom requests.</p>
 				<p>I also deal with <strong> big-data </strong> I have made some dynamic report tools to handle and help to understand large amount of data.</p>
@@ -169,10 +169,10 @@
 			<ul>
 				<li>
 					<p>
-						<b>Strong:</b> <span>•</span>R <span>•</span>MS-Office (Word, Excel, PowerPoint, Publisher) <span>•</span>IBM-SPSS (PSPP) <span>•</span>Prezi
+						<b>Strong:</b> <span>•</span>R <span>•</span>MS-Office (Word, Excel, PowerPoint, Publisher) <span>•</span>IBM-SPSS (PSPP) <span>•</span>Prezi <span>•</span>HTML <span>•</span>CSS
 					</p>
 					<p>
-						<b>Knowledgeable:</b> <span>•</span>Stata <span>•</span>MS-VBA <span>•</span>Git <span>•</span>HTML <span>•</span>CSS <span>•</span>JavaScript <span>•</span>JQuery <span>•</span>Bootstrap <span>•</span>Python <span>•</span>Adobe PS CS3
+						<b>Knowledgeable:</b> <span>•</span>Stata <span>•</span>MS-VBA <span>•</span>Git <span>•</span>JavaScript <span>•</span>JQuery <span>•</span>Bootstrap <span>•</span>Python <span>•</span>Adobe PS CS3
 					</p>
 				</li>
 			</ul>
@@ -189,6 +189,30 @@
 		</div>
 	</section>
 
+	<!-- CONTACT SECTION -->
+
+	<section id = "contact">
+		<h1>contact me</h1>
+		<div class = "section-below-header" id = "projects-section">
+			<hr>
+			<i class="fa fa-cog fa-spin fa-4x fa-fw"></i>
+			<hr>
+		</div>
+		<h2>Please feel free to get in touch if you want to discuss potential projects or need any paid help.</h2>
+		<form action="backend/mail.php" method="post" id="kektusz">
+          <div class="form-content">
+              <input placeholder="Your name" type="text" id="name" name="name" />
+          </div>
+        	<div class="form-content">
+              <input placeholder="E-mail address" type="text" id="email" name="email" />
+          </div>
+          <div class="form-content">
+              <textarea placeholder="Message" name="waypoints" id="waypoints" rows="10"></textarea>
+          </div>
+          <input type="submit" value="Send">
+    </form>
+	</section>
+
 	<!-- FOOTER -->
 
 	<div id = "fusion-footer">
@@ -198,8 +222,8 @@
 		</div>
 
 		<footer id = "footer-higher">
-			<h2> CONTACT INFORMATION </h2>
-			<p> Feel free to contact me if You would like to contribute or have some interesting project.</p>
+			<h2> other platforms </h2>
+			<p>where You can find me </p>
 			<div id = "contacts-container">
 				<div class = contacts>
 						<a href="mailto:tamas.marko@myhappydata.com">
@@ -217,6 +241,10 @@
 						</a>
 				</div>
 			</div>
+		</footer>
+
+		<footer id = "twitter-block">
+				<a class="twitter-timeline" data-chrome="nofooter" data-width="100%" data-height="300" href="https://twitter.com/tarkomatas">Tweets by tarkomatas</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 		</footer>
 
 		<footer id = "footer-lower">

@@ -613,6 +613,121 @@ nav h1 {
 	}
 }
 
+/* =================== CONTACT SECTION =================== */
+
+#contact{
+	padding-top: 50px;
+	padding-bottom: 100px;
+	background-color: #5a90d9;
+	color: white;
+	text-align: center;
+}
+
+#contact hr {
+	color: white;
+}
+
+#contact h1 {
+	text-transform: uppercase;
+	font-size: 40px;
+	letter-spacing: 2px;
+	font-family: inherit;
+	font-weight: 700;
+}
+
+#contact h2 {
+	padding: 40px 20px;
+	font-weight: 400;
+	width: 50%;
+	margin: auto;
+}
+
+form {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.form-content {
+	width: 100%;
+  margin: 0 auto;
+  padding: 10px 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.form-content input, .form-content textarea{
+	box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border:0;
+	outline: none;
+  padding: 30px 30px 30px 30px;
+  margin: 2px 0;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  resize: none;
+}
+
+#name, #email, #waypoints{
+	font-size: 16px;
+}
+
+input[type=submit] {
+  width: 200px;
+  padding: 20px;
+	margin-top: 20px;
+  background: #E74C3C;
+  border-radius: 8px;
+  border: 0;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+::-webkit-input-placeholder {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}
+::-moz-placeholder {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}
+:-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}
+input:-moz-placeholder {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}
+
+/* === for laptops and other mobile devices ==== */
+
+@media (max-width: 900px) {
+	form {
+		width: 100%;
+	}
+
+	#contact h2 {
+		width: 70%;
+	}
+}
+
+@media (max-width: 500px) {
+	hr {
+		width: 30%;
+	}
+}
+
 /* =================== FOOTER =================== */
 
 #fusion-footer{
@@ -635,6 +750,7 @@ nav h1 {
 	padding-bottom: 30px;
 	text-align: center;
 	letter-spacing: 2px;
+	text-transform: uppercase;
 }
 
 #footer-higher p{
@@ -649,6 +765,14 @@ nav h1 {
 	display: flex;
 	justify-content: center; /* align horizontal */
 	align-items: center; /* align vertical */
+}
+
+#twitter-block{
+	width: 25%;
+	float:left;
+	padding-top: 5px;
+	background-color: #363839;
+	text-align: center;
 }
 
 footer {
@@ -712,6 +836,10 @@ footer a:hover {
 	#gmaps{
 		width: 100%;
 		float: none;
+	}
+
+	#twitter-block{
+		width: 100%;
 	}
 
 	#footer-higher{
