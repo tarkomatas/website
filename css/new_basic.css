@@ -351,6 +351,13 @@ nav h1 {
 	background-color: #7570bd;
 }
 
+.sub-boxes#pic-box4{
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	background-color: #074b00;
+}
+
 /* === for laptops and other mobile devices ==== */
 
 @media (max-width: 900px) {
