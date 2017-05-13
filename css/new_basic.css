@@ -225,6 +225,24 @@ nav h1 {
 	}
 }
 
+@media (max-width: 320px) {
+	#main-title {
+		padding-left: 1px;
+	}
+
+	#navbar-menu {
+		padding: 18px 0px 0px 0px;
+	}
+
+	#navbar-menu p {
+		padding: 5px;
+	}
+
+	#menu-button {
+		font-size: 12px;
+	}
+}
+
 
 /* =================== NETWORK SECTION =================== */
 
@@ -358,6 +376,11 @@ nav h1 {
 	background-color: #074b00;
 }
 
+#more-info{
+	padding: 40px 15px 0px 15px;
+	font-size: 18px;
+}
+
 /* === for laptops and other mobile devices ==== */
 
 @media (max-width: 900px) {
@@ -372,7 +395,7 @@ nav h1 {
 	}
 }
 
-@media (max-width: 492px) {
+@media (max-width: 520px) {
 	#projects hr {
 		width: 150px;
 	}
@@ -408,7 +431,7 @@ nav h1 {
 	}
 }
 
-@media (max-width: 392px) {
+@media (max-width: 410px) {
 	#projects hr {
 		width: 100px;
 	}
@@ -418,6 +441,27 @@ nav h1 {
 	#projects h1 {
 		letter-spacing: 1.5px;
 		font-size: 37px;
+	}
+}
+
+@media (max-width: 320px) {
+	#projects hr {
+		width: 30%;
+	}
+
+	.sub-boxes{
+		float: none;
+		display: inline-block;
+		width: 100%;
+	}
+
+	#main-box{
+		width: 100%;
+		padding: 20px;
+		/* important!!!  */
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
 	}
 }
 
@@ -573,7 +617,7 @@ nav h1 {
 	}
 }
 
-@media (max-width: 492px) {
+@media (max-width: 510px) {
 	#block-layer{
 		width: 300px;
 	}
@@ -587,7 +631,7 @@ nav h1 {
 	}
 }
 
-@media (max-width: 392px) {
+@media (max-width: 410px) {
 	#about h2 {
 		width: 250px;
 		font-size: 22px;
@@ -618,6 +662,35 @@ nav h1 {
 	#skills {
 		width: 260px;
 	}
+}
+
+@media (max-width: 320px) {
+	#about hr {
+		width: 30%;
+	}
+
+	#block-layer{
+		width: 100%;
+		padding: 20px;
+		/* important!!!  */
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+ 		box-sizing: border-box;
+	}
+
+	#about h2 {
+		width: 70%;
+	}
+
+	#skills {
+		width: 100%;
+		padding: 20px;
+		/* important!!!  */
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
 }
 
 /* =================== CONTACT SECTION =================== */
