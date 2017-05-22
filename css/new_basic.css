@@ -790,6 +790,11 @@ input:-moz-placeholder {
   color: black;
 }
 
+.error {
+  color: black;
+	margin: 5px;
+}
+
 /* === for laptops and other mobile devices ==== */
 
 @media (max-width: 900px) {
