@@ -580,6 +580,10 @@ nav h1 {
 	overflow: visible;
 }
 
+#skills a {
+	color: #2A54F5;
+}
+
 /* === for laptops and other mobile devices ==== */
 
 @media (max-width: 990px) {
